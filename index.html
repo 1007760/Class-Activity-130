@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>AI DJ Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    </head>
+    <body background="https://thumbs.dreamstime.com/b/retro-neon-city-background-neon-style-s-vector-illustration-89579222.jpg">
+        <center>
+            <h3 class="btn btn-warning heading">AI DJ Web App
+                <br>
+                <span class="note">Note - Move your left hand's wrist to increase and/or decrease the volume. Move right hand's wrist to increase and/or decrease the speed</span>
+            </h3>
+
+            <div class="speed_div">
+                <img src="https://i.pinimg.com/originals/6b/2f/1c/6b2f1c5dba92f48a53020755a9887e06.gif" class="speed_div_image">
+                <hr>
+                <h3 class="btn btn-danger" id="speed">Speed - </h3>
+            </div>
+
+            <div class="volume_div">
+                <img src="https://i.gifer.com/origin/ac/acd2266f7b69491c4d26d92f1c5a821c_w200.gif" class="volume_div_image">
+                <hr>
+                <h3 class="btn btn-danger" id="volume">Volume - </h3>i
+            </div>
+            <br><br>
+            <button onclick="play();" class="btn btn-success play_button">Play</button>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
