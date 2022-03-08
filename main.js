@@ -89,7 +89,7 @@ function draw()
     if(leftWristScore > 0.2)
     {
         circle(leftWristX, leftWristY, 50);
-        InNumberleftWristY = number(leftWristY);
+        InNumberleftWristY = Number(leftWristY);
         new_leftWristY = round(InNumberleftWristY * 2);
         leftWristY_divide_1000 = new_leftWristY/1000;
         document.getElementById("volume").innerHTML = "Volume = " + leftWristY_divide_1000;
